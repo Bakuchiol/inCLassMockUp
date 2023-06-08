@@ -1,0 +1,25 @@
+.scrollBar {
+    border: solid salmon;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrow {
+    border: solid purple;
+    height: 20px;
+}
+
+.scrolltxt {
+    border: solid;
+}
+.navbar {
+    /* border: solid blue; */
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon, .logo, .login {
+    border: solid darkcyan;
+    width: 25%;
+    border-width: .2px;
+}
