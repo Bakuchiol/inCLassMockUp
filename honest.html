@@ -10,16 +10,27 @@
 <body>
         <!-- scroll at top (marquee) -->
         <div class="scrollBar">
-            <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="" class="arrow">
-            <div class="scrolltxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolores ea molestias molestiae excepturi sapiente autem officiis modi maxime minima a nobis iusto fugiat temporibus iste neque, atque officia dolor.</div>
-            <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="" class="arrow">
+            <img src="https://www.honest.com/on/demandware.static/Sites-honest-Site/-/default/v1685996101841/images/svg-icons/right-black.svg" alt="" 
+            onclick="carouselup()" class="arrow">
+            <div class="scrolltxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <img src="https://www.honest.com/on/demandware.static/Sites-honest-Site/-/default/v1685996101841/images/svg-icons/right-black.svg" alt="" 
+            onclick="carouseldown()" class="arrow2">
         </div>
 
         <!-- navbar 3 constainer -->
         <div class="navbar">
-            <div class="icon"></div>
-            <div class="logo"></div>
-            <div class="login"></div>
+            <div class="icon">
+                <img src="https://www.honest.com/on/demandware.static/Sites-honest-Site/-/default/dw4425e2e8/images/svg-icons/search-menu.svg" alt="">
+            </div>
+            <div class="logo">
+                <img src="https://www.honest.com/on/demandware.static/Sites-honest-Site/-/default/dwb6df1267/images/svg-icons/logo-lg-pride.svg" alt="">
+            </div>
+            <div class="login">
+                        <img src="https://www.honest.com/on/demandware.static/Sites-honest-Site/-/default/dwf78ffd4a/images/svg-icons/account.svg" alt="" class="account">
+                        <p>Sign Up or Sign In</p>
+                        <img src="https://www.honest.com/on/demandware.static/Sites-honest-Site/-/default/dwc603cfc4/images/svg-icons/bag.svg" alt="" class="bag">
+                        0
+            </div>
         </div>
     <hr>
         <!-- options -->
@@ -29,20 +40,255 @@
             <div class="option">Makeup</div>
             <div class="option">Personal Care</div>
             <div class="option">Gifts</div>
-            <div class="option">Brands We </div>
+            <div class="option">Brands We Love
+                <img src="https://www.honest.com/on/demandware.static/-/Sites-HC-site-catalog-us/default/dw0d1d93bb/icons/Marketplace_Nav_Heart.svg" alt="" class="heart">
+            </div>
         </div>
     <hr>
             <!-- miniselectors -->
+        <div class="miniSelectors">
+            <ul>
+                <li>Home</li>
+                <li>/</li>
+                <li>Baby + Diapers</li>
+                <li>/</li>
+                <li>Shop All Baby</li>
+            </ul>
+        </div>
 
         <!-- h1 -->
+        <h1>ALL BABY CARE PRODUCTS</h1>
 
         <!-- main image-- 2 image flex -->
-        <!-- main image-- 2 image flex -->
+        <div class="display">
+            <div class="displayRow">
+                <div class="product">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Library-Sites-HC-content/default/dw3ef51a9a/marketing-tile/Baby-Marketing-Tiles/summer-23-tile.jpg?sw=180" alt="">
+                <p>ALL DIAPERS</p>
+                </div>
+
+                <div class="product">
+                    <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Library-Sites-HC-content/default/dw119103c0/Category-Tiles/Baby/newborn-essentials.jpg?sw=600" alt="" class="productIMG">
+                    <p>NEWBORN ESSENTIALS</p>
+                </div>
+            </div>
+            <div class="displayRow">
+                <div class="product">
+                    <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Library-Sites-HC-content/default/dw24d3abc4/Category-Tiles/Baby/wipes-tile.png?sw=600" alt="" class="productIMG">
+                    <p>WIPES</p>
+                    </div>
+                
+                <div class="product">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Library-Sites-HC-content/default/dw96eb828a/marketing-tile/Baby-Marketing-Tiles/hello-baby-kit-tile.jpg?sw=180" alt="">
+                <p>BABY SETS + KITS</p>
+                </div>
+            </div>
+        </div>
+
 
         <!-- filterboxes -->
+        <div class="filterBoxes">
+            <div class="filter1 filter">FILTER BY
+                <button>X</button>
+            </div>
+            <div class="filter2 filter"> FEATURED
+                <button>X</button>
+            </div>
+        </div>
 
         <!-- product row (hidden div: new prints/best seller in JS)-->
             <!-- desc box  name, orice stars, review count, diff prints-->
+    <div class="featuredProducts">
+        <!-- 1st row -->
+        <div class="row">
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw6eaad689/images/large/Honest-Diaper/Summer1.0_2023/lifestyle/MultiSKU_DaytimeDiaper_XX_ChillinCheetah_Model_Cire_0161_1x1_02-min.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Honest Diapers</p>
+                <p>$12.99</p>
+                <div class="star">
+                    <!-- <img src="https://img.uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-full-icon.png" alt=""> -->
+                </div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwe2800091/images/large/Clean-Conscious-Wipes/Balance-Blues/60ct_BalanceBlues_PrimaryFrontWipeOut.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Clean Conscious<sup>&trade;</sup> Wipes</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw0485c37f/images/large/Overnights/elle.rue.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Overnight Diapers</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="row">
+            <div class="productFeat">
+                <img src="https://www.honest.com/on/demandware.static/-/Sites-HC-master-catalog/default/dw40f29c2e/images/large/Diapers-and-Wipes-Bundle/DW_Bundle_Marketing_Tile_2023_PI.gif" alt="" class="img">
+                <p class="desc">Diapers + Wipes Subscription</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw1391bc92/images/large/Training-Pants/2022-New-Prints-model/ROMPIN_STOMPIN_armsup.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Training Pants</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwccb72f59/images/large/Diaper-Box/explodable-diaper-boxes/Size3/f6f6f6/DTC_SCB_CCuties_BBabies_S3_1_f6.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Diaper Box</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+        </div>
+        <!-- 3rd row -->
+        <div class="row">
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw153aed8b/images/large/Overnight-diaper-club-boxes/Overnights_Bilingual_ClubBox_Sleepy_Sheep_Size_6_1.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Overnight Diaper Box</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw6fc6f497/images/large/TrainingPantsBundle/Training-Pants-Bundle-2T-3T/Training-Pants-Bundle-2T-3T-dinosaurs.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Training Pants Bundle</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwf366900e/images/large/Diaper-Rash-Cream/affiliate/DiaperRashCream_1.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Diaper Rash Cream</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+        </div>
+        <!-- 4th row -->
+        <div class="row">
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw15e264d5/images/large/diaper-rash-cream-spray/restage-2023/SprayableDiaperRashCream_front.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Sprayable Diaper Rash Cream</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwe24860ae/images/large/Healing-Head-To-Toe-Ointment/front_on_white.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Healing Head-To-Toe Ointment</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwec6d3b44/images/large/Soothing-Bottom-Wash/artworkreform21/NEA-SEAL-soothingbottomwash.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Soothing Bottom Wash</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw6eaad689/images/large/Honest-Diaper/Summer1.0_2023/lifestyle/MultiSKU_DaytimeDiaper_XX_ChillinCheetah_Model_Cire_0161_1x1_02-min.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Honest Diapers</p>
+                <p>$12.99</p>
+                <div class="star">
+                    <!-- <img src="https://img.uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-full-icon.png" alt=""> -->
+                </div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwe2800091/images/large/Clean-Conscious-Wipes/Balance-Blues/60ct_BalanceBlues_PrimaryFrontWipeOut.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Clean Conscious<sup>&trade;</sup> Wipes</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw0485c37f/images/large/Overnights/elle.rue.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Overnight Diapers</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="row">
+            <div class="productFeat">
+                <img src="https://www.honest.com/on/demandware.static/-/Sites-HC-master-catalog/default/dw40f29c2e/images/large/Diapers-and-Wipes-Bundle/DW_Bundle_Marketing_Tile_2023_PI.gif" alt="" class="img">
+                <p class="desc">Diapers + Wipes Subscription</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw1391bc92/images/large/Training-Pants/2022-New-Prints-model/ROMPIN_STOMPIN_armsup.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Training Pants</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwccb72f59/images/large/Diaper-Box/explodable-diaper-boxes/Size3/f6f6f6/DTC_SCB_CCuties_BBabies_S3_1_f6.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Diaper Box</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+        </div>
+        <!-- 3rd row -->
+        <div class="row">
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw153aed8b/images/large/Overnight-diaper-club-boxes/Overnights_Bilingual_ClubBox_Sleepy_Sheep_Size_6_1.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Overnight Diaper Box</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw6fc6f497/images/large/TrainingPantsBundle/Training-Pants-Bundle-2T-3T/Training-Pants-Bundle-2T-3T-dinosaurs.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Training Pants Bundle</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwf366900e/images/large/Diaper-Rash-Cream/affiliate/DiaperRashCream_1.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Diaper Rash Cream</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+        </div>
+        <!-- 4th row -->
+        <div class="row">
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dw15e264d5/images/large/diaper-rash-cream-spray/restage-2023/SprayableDiaperRashCream_front.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Sprayable Diaper Rash Cream</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwe24860ae/images/large/Healing-Head-To-Toe-Ointment/front_on_white.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Healing Head-To-Toe Ointment</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+            <div class="productFeat">
+                <img src="https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Sites-HC-master-catalog/default/dwec6d3b44/images/large/Soothing-Bottom-Wash/artworkreform21/NEA-SEAL-soothingbottomwash.jpg?sw=400&sh=400&sm=fit" alt="" class="img">
+                <p class="desc">Soothing Bottom Wash</p>
+                <p>$12.99</p>
+                <div class="star"></div>
+            </div>
+
+
+    </div>
 
     <script src="app.js"></script>
 </body>

@@ -1,12 +1,19 @@
 .scrollBar {
     border: solid salmon;
+    background-color: salmon;
     display: flex;
+    height: 42px;
+    padding-top: 22px;
     justify-content: space-around;
+    color: black;
 }
 
-.arrow {
+.arrow, .arrow2 {
     border: solid purple;
     height: 20px;
+}
+.arrow {
+    transform: rotate(180deg);
 }
 
 .scrolltxt {
@@ -14,6 +21,7 @@
 }
 .navbar {
     /* border: solid blue; */
+    margin: 18px 0 18px 0;
     height: 25px;
     display: flex;
     justify-content: space-between;
@@ -23,3 +31,132 @@
     width: 25%;
     border-width: .2px;
 }
+.heart {
+    height: 10px;
+}
+/*  */
+.login{
+    display: flex;
+}
+
+.optionsContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* soemting */
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin-right: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+/* MAIN PRODUCTS TOP */
+.display {
+
+}
+.displayRow {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+
+}
+.productIMG {
+    height: 180px;
+}
+/* FILTER BOX AND OTHER PRODUCTS */
+.filterBoxes {
+    display: flex;
+    gap: 20px;
+    margin: 50px 0 0 20px;
+}
+.filter1, .filter2 {
+    border: 1px solid;
+    height: 40px;
+    padding: 20px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.filter button {
+    border: none;
+    background-color: #fff;
+    margin-top: -20px;
+}
+.filter1 {
+    width: 150px;
+}
+
+.filter2 {
+    width: 200px;
+}
+/* featured products */
+.featuredProducts {
+    margin-top: 50px;
+}
+.row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin: 0 0 30px 30px;
+
+}
+.row p {
+    text-align: center;
+}
+.img {
+    height: 180px;
+}
+.star {
+    /* border: solid; */
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/189/165/small/star.png);
+    /* background-repeat: repeat-x; */
+    height: 15px;
+    width: 75px;
+    background-size: 15px;
+    color: black;
+
+}
+
+
+/* MAIN TOP */
+/* .mainTop {
+    background-image: url(https://www.honest.com/on/demandware.static/-/Library-Sites-HC-content/default/dwd4525b5a/2023/homepage/full-width/051623_Summer1_HDC_Homepage_HeroDesktop_v3.jpg);
+    padding: 20px;
+}
+.mainBg {
+    background: rgb(226, 216, 193);
+    padding: 0 0 10px 5px;
+    color:rgb(56, 75, 99);
+}
+.mainTop h1 {
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+}
+.mainTop button {
+    height: 40px;
+}
+.mainBtn1 {
+    background: rgb(56, 75, 99);
+    color: #fff;
+}
+.mainBtn2 {
+    border: solid rgb(56, 75, 99)
+}
+/* MIDDLE */
+/* MIDDLE LEFT PRODUCTS */
+/* .main */
+/* .middleLeft{
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* .productSelect {
+    height: 200px;
+} */
